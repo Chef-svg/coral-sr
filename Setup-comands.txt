@@ -1,0 +1,6 @@
+https://aka.ms/vc14/vc_redist.x64.exe
+https://github.com/google-coral/libedgetpu/releases/download/release-grouper/edgetpu_runtime_20221024.zip
+https://www.python.org/ftp/python/3.9.13/python-3.9.13-amd64.exe
+py -3.9 -m venv .venv
+pip install --upgrade pip
+pip install --extra-index-url https://google-coral.github.io/py-repo/ pycoral~=2.0
